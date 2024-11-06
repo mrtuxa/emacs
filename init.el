@@ -17,7 +17,7 @@
 (use-package undo-fu)
 (use-package gruvbox-theme
  :config
- (load-theme 'gruvbox))
+ (load-theme 'gruvbox t))
 ;;; Vim Bindings
 (use-package evil
   :demand t
@@ -53,3 +53,11 @@
  )
 
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
+
+
+;; POWERLINE
+
+(require 'powerline)
+(powerline-default-theme)
+
+;; POWERLINE
