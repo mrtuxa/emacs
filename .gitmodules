@@ -1,0 +1,3 @@
+[submodule "tokyonight"]
+	path = tokyonight
+	url = https://github.com/rawleyfowler/tokyo-theme.el
